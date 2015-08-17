@@ -6,8 +6,12 @@ public class MathFixture  extends ColumnFixture {
 	private int fibonacciInt = 1;
 	private long fibonacciLong = 1L;
 	
-	public int prime(){
-		return 1;
+	public boolean testPrimeInt(){
+		return MathUtilities.isPrime(primeInt);
+	}
+	
+	public boolean testPrimeLong(){
+		return MathUtilities.isPrime(primeLong);
 	}
 	
 	public int getPrimeInt() {
@@ -17,11 +21,7 @@ public class MathFixture  extends ColumnFixture {
 	public void setPrimeInt(int primeInt) {
 		this.primeInt = primeInt;
 	}
-
-	public int primeI(){
-		return primeInt;
-	}
-
+	
 	public long getFibonacciLong() {
 		return fibonacciLong;
 	}

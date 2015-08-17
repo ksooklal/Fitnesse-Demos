@@ -1,7 +1,18 @@
 !path C:\Users\kristian.sooklal\Downloads
-!path C:\Users\kristian.sooklal\FitnesseWorkspace\FitnesseDemo\lib
-!path C:\Users\kristian.sooklal\FitnesseWorkspace\FitnesseDemo\bin
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\lib
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\bin
 
 !|MathFixture|
-|prime int|primeI?|
-|2|2|
+|prime int|test prime int?|
+|2|true|
+|2234|false|
+|-1|false|
+|23|true|
+|29|true|
+|41|true|
+|3|true|
+|5|true|
+|7|true|
+|4|false|
+|1|false|
+

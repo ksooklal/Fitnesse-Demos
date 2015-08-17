@@ -1,0 +1,7 @@
+!path C:\Users\kristian.sooklal\Downloads
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\FitnesseDemo\lib
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\FitnesseDemo\bin
+
+!|MathFixture|
+|prime int|primeI?|
+|2|2|

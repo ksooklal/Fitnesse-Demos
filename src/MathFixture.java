@@ -10,6 +10,14 @@ public class MathFixture  extends ColumnFixture {
 		return MathUtilities.isPrime(primeInt);
 	}
 	
+	public long testFibonacciInt(){
+		return MathUtilities.fibonacci(fibonacciInt);
+	}
+	
+	public long testFibonacciLong(){
+		return MathUtilities.fibonacci(fibonacciLong);
+	}
+	
 	public boolean testPrimeLong(){
 		return MathUtilities.isPrime(primeLong);
 	}

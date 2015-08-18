@@ -1,0 +1,37 @@
+!path C:\Users\kristian.sooklal\Downloads
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\lib
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\bin
+
+Test for "Prime-ness" of an int
+!|MathFixture|
+|prime int|test prime int?|
+|2|true|
+|2234|false|
+|-1|false|
+|23|true|
+|29|true|
+|41|true|
+|3|true|
+|5|true|
+|7|true|
+|4|false|
+|1|false|
+
+Test for "Prime-ness" of a long
+!|MathFixture|
+|prime long|test prime long?|
+|2|true|
+|43|true|
+|139|true|
+
+Test for Fibonacci Sequence (if given an int index)
+!|MathFixture|
+|fibonacci int|test fibonacci int?|
+|20|6765|
+|29|514229|
+
+Test for Fibonacci Sequence (if given a long index)
+!|MathFixture|
+|fibonacci long|test fibonacci long?|
+|23| 28657|
+|41|165580141|

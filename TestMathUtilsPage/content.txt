@@ -1,9 +1,9 @@
 !path C:\Users\kristian.sooklal\Downloads
-!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\lib
-!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\bin
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\lib\
+!path C:\Users\kristian.sooklal\FitnesseWorkspace\Fitnesse-Demo\bin\
 
 Test for "Prime-ness" of an int
-!|MathFixture|
+!|fixtures.MathFixture|
 |prime int|test prime int?|
 |2|true|
 |2234|false|
@@ -29,9 +29,12 @@ Test for Fibonacci Sequence (if given an int index)
 |fibonacci int|test fibonacci int?|
 |20|6765|
 |29|514229|
+|0|0|
+|2|2|
 
 Test for Fibonacci Sequence (if given a long index)
 !|MathFixture|
 |fibonacci long|test fibonacci long?|
 |23| 28657|
 |41|165580141|
+|3|3|

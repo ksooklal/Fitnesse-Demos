@@ -9,7 +9,10 @@ import java.sql.DriverManager;
 public final class DatabaseConnection {
 	private static final Connection CONNECTION_INSTANCE = getConnection();
 
-	private static Connection getConnection(){
+	public static void main (String []args){
+		System.out.println(getConnection());
+	}
+	private static final Connection getConnection(){
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
 			String userName = getUserName();
@@ -17,6 +20,7 @@ public final class DatabaseConnection {
 			String password = getPassword();
 			return DriverManager.getConnection(url, userName, password);
 		} catch (Exception e){
+			e.printStackTrace();
 			return null;
 		}
 	}

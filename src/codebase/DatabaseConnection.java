@@ -1,7 +1,6 @@
 package codebase;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
@@ -90,12 +89,5 @@ public final class DatabaseConnection {
 			return databaseURL;
 		}
 		return databaseURL;
-	}
-
-	public static void main (String [] args) throws FileNotFoundException{
-		System.out.println("URL: " + getDatabaseUrl());
-		System.out.println(getUserName());
-		System.out.println(getPassword());
-		FileReader fr = new FileReader("C:\\Users\\kristian.sooklal\\FitnesseWorkspace\\Fitnesse-Demo\\bin\\utils\\databaseInfo.txt");
 	}
 }

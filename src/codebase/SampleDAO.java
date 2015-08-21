@@ -16,6 +16,7 @@ public class SampleDAO {
 		List<String> studentNames = new ArrayList<String>();
 		
 		PreparedStatement statement = CONNECTION.prepareStatement(query);
+		System.out.println(statement);
 		//statement.setString(1, username);
 		//statement.setString(2, password);
 		

@@ -18,6 +18,7 @@ public final class DatabaseConnection {
 			String userName = getUserName();
 			String url = getDatabaseUrl();
 			String password = getPassword();
+			System.out.println(url + "\t" + "\t" + userName + "\t" + password);
 			return DriverManager.getConnection(url, userName, password);
 		} catch (Exception e){
 			e.printStackTrace();
